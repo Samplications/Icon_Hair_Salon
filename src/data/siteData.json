@@ -1,0 +1,92 @@
+{
+    "name": "ICON Hair Salon",
+    "owner": "Deine Nahme",
+    "about": "Wir bieten eine Vielzahl von Haarpflegedienstleistungen an, um Sie gut aussehen und wohlfühlen zu lassen. Entdecken Sie unsere Dienstleistungen und genießen Sie einen entspannten Moment für sich selbst.",
+    "socials": {
+        "instagram": "",
+        "facebook": "https://facebook.com/generischerfriseursalon",
+        "whatsapp": "https://api.whatsapp.com/send?phone=123456789",
+        "linkedin": ""
+    },
+    "contact": {
+        "email": "info@iconhairsalon.de",
+        "address": "Karlstrasse 107, Bessungen Darmstadt",
+        "tel": "+123456789",
+        "opening": {
+            "montag": "10:00 - 19:00",
+            "dienstag": "10:00 - 19:00",
+            "mittwoch": "10:00 - 19:00",
+            "donnerstag": "10:00 - 19:00",
+            "freitag": "10:00 - 19:00",
+            "samstag": "09:00 - 19:00",
+            "sonntag": "Geschlossen"
+        }
+    },
+    "vatNumber": "USt-IdNr. 123456789",
+    "services": [
+        {
+            "name": "Haarschnitt",
+            "description": "Ein klassischer Haarschnitt, zugeschnitten auf Ihren Stil und Ihre Vorlieben.",
+            "image": "haarschnitt.jpg"
+        },
+        {
+            "name": "Färben",
+            "description": "Professionelle Haarfärbedienstleistungen, um Ihnen einen neuen Glanz zu verleihen.",
+            "image": "faerben.jpg"
+        },
+        {
+            "name": "Styling",
+            "description": "Lassen Sie Ihre Haare für jeden Anlass stylen, von lässig bis zu formellen Veranstaltungen.",
+            "image": "styling.jpg"
+        },
+        {
+            "name": "Behandlung",
+            "description": "Verschiedene Haarbehandlungen, um Ihr Haar zu pflegen und zu revitalisieren.",
+            "image": "behandlung.jpg"
+        }
+    ],
+    "pricelist": [
+        [
+            {
+                "name": "Basic Haarschnitt",
+                "description": "Ein Standard-Haarschnitt, um Ihren Stil zu erhalten.",
+                "price": "30,00 €"
+            },
+            {
+                "name": "Komplettfärbung",
+                "description": "Kompletter Haarfärbeservice mit Ihrer Farbwahl.",
+                "price": "70,00 €"
+            },
+            {
+                "name": "Haarstyling",
+                "description": "Professionelles Styling für jeden Anlass oder jede Veranstaltung.",
+                "price": "50,00 €"
+            },
+            {
+                "name": "Haarbehandlung",
+                "description": "Tiefenpflegebehandlung zur Pflege und Reparatur Ihrer Haare.",
+                "price": "40,00 €"
+            },
+            {
+                "name": "Haarschnitt & Styling",
+                "description": "Kombinieren Sie einen Haarschnitt mit einer professionellen Styling-Session.",
+                "price": "60,00 €"
+            },
+            {
+                "name": "Strähnen",
+                "description": "Fügen Sie Ihrem Haar Strähnen für einen mehrdimensionalen Look hinzu.",
+                "price": "80,00 €"
+            },
+            {
+                "name": "Keratinbehandlung",
+                "description": "Glättungsbehandlung zur Reduzierung von Frizz und für mehr Glanz.",
+                "price": "100,00 €"
+            },
+            {
+                "name": "Hochsteckfrisur",
+                "description": "Elegantes Hochstecken für besondere Anlässe.",
+                "price": "60,00 €"
+            }
+        ]
+    ]
+}
