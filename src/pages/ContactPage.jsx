@@ -66,6 +66,8 @@ const ContactInfo = styled.div`
 const OpeningHours = styled.div`
   margin: 20px 0;
   text-align: left;
+
+  ul{margin:0}
 `;
 
 const SocialLinks = styled.div`
@@ -105,32 +107,10 @@ const ContactForm = styled.form`
   gap: 10px;
 `;
 
-const Input = styled.input`
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-`;
-
-const TextArea = styled.textarea`
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  min-height: 150px;
-`;
-
-const Button = styled.button`
-  padding: 10px;
-  background-color: var(--c-secondary);
-  color: white;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-`;
-
 const SubTitle = styled.h2`
   color: var(--c-black);
-  font-size: 1.5rem;
   margin-bottom: 0.4rem;
+  font-size: 2rem;
 `;
 
 const Paragraph = styled.p`
@@ -174,10 +154,10 @@ const ContactPage = () => {
             <br />
             <SubTitle>Vereinbaren Sie jetzt Ihren Termin</SubTitle>
             <Paragraph>
-                <ContactLink href={`tel:${siteData.contact.tel}`}>{siteData.contact.tel}</ContactLink>
+                <ContactLink href={`tel:${siteData.contact.tel}`}>{siteData.contact.tel} (click to call)</ContactLink>
             </Paragraph>
             <Paragraph>
-                <ContactLink href={`mailto:${siteData.contact.email}`}>{siteData.contact.email}</ContactLink>
+                <ContactLink href={`mailto:${siteData.contact.email}`}>{siteData.contact.email} (click to email)</ContactLink>
             </Paragraph>
           </ContactInfo>
           <OpeningHours>

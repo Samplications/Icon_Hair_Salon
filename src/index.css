@@ -46,6 +46,15 @@ h1 {
   font-family: "Concert One";
 }
 
+h2{
+    font-family: "Concert One";
+}
+
+h3{
+  font-family: "Concert One";
+  font-size: 1.5rem;
+  margin-bottom:0.2em;
+}
 
 p {
   font-size: 1.5rem;

@@ -63,7 +63,7 @@ const ServiceInfo = styled.div`
 const ServiceName = styled.h3`
   margin: 0;
   color: #333;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
 `;
 
 const ServiceDescription = styled.p`
