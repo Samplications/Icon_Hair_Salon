@@ -33,11 +33,13 @@ const OverlayText = styled.div`
 
   h1{
     margin-bottom: 0.25em;
+    font-size: clamp(3rem, 3vw, 6rem);
   }
 
   p{
     margin-top: 0.25em;
     padding: 0 10%;
+    font-size: clamp(1rem, 1vw, 1.2rem);
   }
 `;
 
