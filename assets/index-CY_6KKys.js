@@ -92,11 +92,13 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
 
   h1{
     margin-bottom: 0.25em;
+    font-size: clamp(3rem, 3vw, 6rem);
   }
 
   p{
     margin-top: 0.25em;
     padding: 0 10%;
+    font-size: clamp(1rem, 1vw, 1.2rem);
   }
 `,E1=()=>w.jsxs(x1,{children:[w.jsx(S1,{}),w.jsxs(k1,{children:[w.jsxs("h1",{children:["Willkommen im ",M.name]}),w.jsx("p",{children:M.about.split(`
 `).map((e,t)=>w.jsxs(Ot.Fragment,{children:[e,w.jsx("br",{})]},t))})]})]}),C1=j.div`
